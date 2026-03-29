@@ -4,11 +4,11 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/cv/',
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      '@': path.resolve(__dirname, './src'),
     },
   },
 })
